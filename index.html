@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <img id="p1" src="cityMap_partA_populated.png" style="display:none" />
+    <img id="p2" src="cityMap_partB_populated.png" style="display:none" />
+    <img id="p3" src="cityMap_partC_populated.png" style="display:none" />
+    <img id="p4" src="cityMap_partD_populated.png" style="display:none" />
+
+    <div id="stats">
+        <p id="landStatus">Welcome</p>
+        <p id="coordinates"></p>
+
+        <button id="export">
+            <p>Export to JSON</p>
+        </button>
+
+        <button id="start">
+            <p>Start</p>
+        </button>
+
+        <button id="stop">
+            <p>Stop</p>
+        </button>
+    </div>
+
+    <canvas id="canvas" width="19600" height="8400"></canvas>
+    <script src="main.js"></script>
+</body>
+
+</html>
